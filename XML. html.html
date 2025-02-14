@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Gorras - Shop de Gorras</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 23%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product-card h3 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .product-card p {
+            color: #888;
+            font-size: 16px;
+        }
+        .product-card .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+        .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .cta-btn:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Venta de Gorras - ¡Tu Estilo, Tu Gorra!</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <h2 style="text-align: center; margin-top: 40px;">¡Descubre nuestras increíbles gorras!</h2>
+        <p style="text-align: center; color: #555;">Tenemos más de 20 gorras de diferentes estilos, colores y diseños. ¡Encuentra la tuya ahora!</p>
+
+        <!-- Product Listings -->
+        <div class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gorra 1">
+                <h3>Gorra Casual</h3>
+                <p>Comodidad y estilo para tu día a día.</p>
+                <p class="price">$15.99</p>
+                <a href="#" class="cta-btn">Comprar Ahora</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gorra 2">
+                <h3>Gorra Deportiva</h3>
+                <p>Diseño moderno y ajuste perfecto para el deporte.</p>
+                <p class="price">$19.99</p>
+                <a href="#" class="cta-btn">Comprar Ahora</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gorra 3">
+                <h3>Gorra Vintage</h3>
+                <p>Un toque retro para tu estilo único.</p>
+                <p class="price">$17.49</p>
+                <a href="#" class="cta-btn">Comprar Ahora</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gorra 4">
+                <h3>Gorra de Béisbol</h3>
+                <p>Perfecta para tu look deportivo y casual.</p>
+                <p class="price">$18.99</p>
+                <a href="#" class="cta-btn">Comprar Ahora</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gorra 5">
+                <h3>Gorra de Moda</h3>
+                <p>¡Dale un toque moderno a tu outfit!</p>
+                <p class="price">$22.99</p>
+                <a href="#" class="cta-btn">Comprar Ahora</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200" alt="Gorra 6">
+                <h3>Gorra de Beisbol</h3>
+                <p>¡Ideal para tu día a día!</p>
+                <p class="price">$12.99</p>
+                <a href="#" class="cta-btn">Comprar Ahora</a>
+            </div>
+
+            <!-- Add more product cards here -->
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <h2 style="text-align: center; margin-top: 40px;">Contáctanos</h2>
+        <p style="text-align: center;">Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.</p>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="mailto:contacto@ventadegorras.com" class="cta-btn">Envíanos un correo</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Venta de Gorras. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
